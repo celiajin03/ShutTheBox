@@ -1,0 +1,107 @@
+body {
+  font-family: Times New Roman, Garamond, serif;
+  background-color: rgb(255, 220, 209);
+  color: rgb(69, 71, 104);
+  font-size: 1.3em;
+  /*min-width: 350px;*/
+}
+
+header {
+  text-align: center;
+  color: rgb(79, 81, 114);
+  padding: 30px;
+  border: 4px ridge rgba(163, 166, 207, 0.6);
+  margin: 20px 10px;
+}
+
+main {
+  padding: 20px;
+  border: 3px dotted rgb(113, 116, 157);
+  margin: 20px 10px;
+}
+
+h2 {
+  text-shadow: 1px 2px 2px grey;
+  margin-bottom: 40px;
+}
+
+.h2_after_sth {
+  margin-top: 60px;
+}
+
+p {
+  text-indent: 40px;
+}
+
+fieldset {
+  text-align: center;
+  padding: 40px;
+  border: 3px solid rgba(83, 86, 127, 0.7);
+  margin: 40px;
+}
+
+input {
+  padding: 8px;
+  border: 3px solid rgb(147, 126, 187);
+  font-size: 0.8em;
+}
+
+#passwordEntry:hover,
+#username:hover {
+  background-color: rgb(237, 237, 255);
+}
+
+#passwordEntry:focus,
+#username:focus {
+  background-color: rgb(237, 237, 255);
+}
+
+/* The Rules */
+li {
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+
+#result {
+  display: inline-block;
+  width: 100px;
+  color: red;
+}
+
+input[type="submit"],
+input[type="button"] {
+  background-color: white;
+  border-radius: 6px;
+}
+
+input[type="submit"]:hover:enabled,
+input[type="button"]:hover:enabled {
+  background-color: rgb(147, 126, 187);
+  color: white;
+}
+
+table {
+  text-align: center;
+  padding: 30px;
+  border: 4px double rgb(217, 177, 156);
+  margin: auto;
+  width: 80%;
+}
+
+.num {
+  padding: 50px 10px;
+  border: 2px dotted rgb(113, 116, 157);
+}
+
+#leaderboard {
+  text-indent: 0px;
+  padding-left: 40px;
+}
+
+footer {
+  position: sticky;
+  bottom: 0px;
+  text-align: center;
+  padding-bottom: 10px;
+  background-color: rgb(255, 220, 209);
+}
